@@ -1,0 +1,85 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+#img1{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 175;
+}
+#welcome{
+    background: linear-gradient(#cbf5e8 0%,#023317 100%);
+    width:100%;
+    height: 100%;
+    position:absolute;
+    display: table;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#bio{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+#name{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Comforter', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+.parrallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    color: aliceblue;
+    padding: 5px;
+    font-size: 30px;
+    float: left;
+}
+.links:hover{
+background-color: blueviolet;
+
+}
+
+    
+}
